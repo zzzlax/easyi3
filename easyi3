@@ -65,10 +65,7 @@ function on_exit() {
 function zsh() {
 echo "exec zsh" >> ~/.bashrc
 mv ./.zsh ~/
-echo "source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-alias -g p='python3'
+echo "alias -g p='python3'
 alias -g b='bash'
 alias -g tab='xfce4-terminal --tab'
 alias -g c='clear &&'
