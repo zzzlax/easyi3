@@ -128,11 +128,13 @@ or
 Either ohmyzsh, fizsh or cloning zsh plugins and adding them by source to your zshrc. Fizsh has the fastest load time in terminal.
 
 
+
 <div>
   <html>
     <a href="https://github.com/ohmyzsh/ohmyzsh">Ohmyzsh</a>
     <a href="https://github.com/zsh-users/fizsh">Fizsh</a>
     <a href="https://github.com/topics/zsh-plugins">ZSH Plugins</a>
+    <br>
   </html>
 </div>
 
@@ -141,7 +143,8 @@ Using MEGAovpn located in the ZZZlax git repo with a free protonvpn account to s
 
 Using .Pyrate Browser to access the tor network on a server-side cookie proof (you read that correctly) web browser. Some of its features include automated launching of django webservers, script injection, a customizeable homescreen writen in Html5/CSS/JS, and a GUI for youtube-dl that is capiable of scraping band and album information from wikipedia and many more security and networking features.
 
-Showing love to my Pinephone repo <3.
+And/Or Showing love to my Pinephone repo <3.
+
 
 
 <div>
@@ -151,6 +154,7 @@ Showing love to my Pinephone repo <3.
     <a href="https://github.com/ZZZlax/Pinephone">ZZZ's Pinephone Repo</a>
   </html>
 </div>
+
 
 
 If you try to run easy i3 on a distro that doesn't use apt or pacman the script will fail. Feel free to install the packages listed one by one and list which ones are available for your distribution and join the development!
