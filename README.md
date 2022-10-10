@@ -26,14 +26,14 @@ rolling
 
 Aswell as global alias's for:
 
-Alias | Command |
-| --- | --- |
-p | python3 |
-b | bash |
-tab | xfce4-terminal --tab |
-c | clear && |
-x | rm -rf ~/zsh_history ; history -c |
-cx | rm -rf ~/zsh_history ; history -c ; rm - rf .local/share/recently-used.xbel && clear |
+Alias | Command | Purpose |
+| --- | --- | --- |
+p | python3 | Call .py scripts quickly |
+b | bash | Call Bash scripts quickly |
+tab | xfce4-terminal --tab | Open a new tab in the active terminal |
+c | clear && | A global prefix to clear the screen |
+x | rm -rf ~/zsh_history ; history -c | A global prefix to remove shell history |
+cx | rm -rf ~/zsh_history ; history -c ; rm - rf .local/share/recently-used.xbel && clear | Remove history and recently used history as well as clearing the terminal |
 
 Wallpapers are sourced from your ~/Pictures folder making it quick and easy and Rofi was made transparent and full screen to maximize screen space.
 
