@@ -27,6 +27,7 @@ rolling
 Aswell as global alias's for:
 
 Alias | Command |
+| --- | --- |
 p | python3 |
 b | bash |
 tab | xfce4-terminal --tab |
@@ -39,6 +40,7 @@ Wallpapers are sourced from your ~/Pictures folder making it quick and easy and 
 The packages will vary depending on your distro:
 
 Package | Arch | Debian | Syslinked |
+| --- | --- | --- | --- |
 i3 meta | y | y | n |
 lightdm | y | y | y |
 git | y | y | n |
