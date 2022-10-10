@@ -53,6 +53,7 @@ memlockd | n | y | y |
 xfce4-terminal | y | y | y |
 tor | y | y | y |
 brightnessctl | y | y | n |
+stacer | n | y | m |
 tuned | y | y | y |
 ufw | y | y | y |
 auditd | y | y | y |
@@ -120,6 +121,32 @@ The script should begin with either
 or
 
 >> Updating apt cache
+
+## Reccomends ##
+
+Either ohmyzsh, fizsh or cloning zsh plugins and adding them by source to your zshrc. Fizsh has the fastest load time in terminal.
+
+<div>
+  <html>
+    <a href="https://github.com/ohmyzsh/ohmyzsh">Ohmyzsh</a>
+    <a href="https://github.com/zsh-users/fizsh">Fizsh</a>
+    <a href="https://github.com/topics/zsh-plugins">ZSH Plugins</a>
+  </html>
+</div>
+
+Using MEGAovpn located in the ZZZlax git repo with a free protonvpn account to set up all the free server configs in 1 script then setting your primary connection to connect to a VPN upon boot.
+
+Using .Pyrate Browser to access the tor network on a server-side cookie proof (you read that correctly) web browser. Some of its features include automated launching of django webservers, script injection, a customizeable homescreen writen in Html5/CSS/JS, and a GUI for youtube-dl that is capiable of scraping band and album information from wikipedia and many more security and networking features.
+
+Showing love to my Pinephone repo <3.
+
+<div>
+  <html>
+    <a href="https://github.com/ZZZlax/.Pyrate">.Pyrate</a>
+    <a href="https://github.com/ZZZlax/MEGAvpn">MEGAvpn</a>
+    <a href="https://github.com/ZZZlax/Pinephone">ZZZ's Pinephone Repo</a>
+  </html>
+</div>
 
 If you try to run easy i3 on a distro that doesn't use apt or pacman the script will fail. Feel free to install the packages listed one by one and list which ones are available for your distribution and join the development!
 
