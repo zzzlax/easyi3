@@ -27,11 +27,9 @@ rolling
 Aswell as global alias's for:
 
 Alias | Command |
-| --- | --- |
 p | python3 |
 b | bash |
 tab | xfce4-terminal --tab |
-| --- | --- |
 c | clear && |
 x | rm -rf ~/zsh_history ; history -c |
 cx | rm -rf ~/zsh_history ; history -c ; rm - rf .local/share/recently-used.xbel && clear |
@@ -41,7 +39,6 @@ Wallpapers are sourced from your ~/Pictures folder making it quick and easy and 
 The packages will vary depending on your distro:
 
 Package | Arch | Debian | Syslinked |
-| --- | --- | --- |
 i3 meta | y | y | n |
 lightdm | y | y | y |
 git | y | y | n |
@@ -50,18 +47,18 @@ axel | y | y | n |
 fail2ban | y | y | y |
 zsh | y | y | n |
 memcached | y | y | y |
-memlockd | n | y | y|
+memlockd | n | y | y |
 xfce4-terminal | y | y | y |
 tor | y | y | y |
-brightnessctl | y | y | n|
+brightnessctl | y | y | n |
 tuned | y | y | y |
 ufw | y | y | y |
 auditd | y | y | y |
 thunar | y | y | n |
 rofi | y | y | n |
 feh | y | y | n |
-tlp | y | y| y |
-firefox | y | n| n |
+tlp | y | y | y |
+firefox | y | n | n |
 unburden-home-dir | n | y | n |
 nocache | n | y | n |
 curl | y | y | n |
