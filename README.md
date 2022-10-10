@@ -121,6 +121,6 @@ or
 
 >> Updating apt cache
 
-If you try to run easy i3 on a distro that doesn't use apt or pacman the script will fail. Feel free to install the packages listed one by one and list which ones are available for your distribution and join the in!
+If you try to run easy i3 on a distro that doesn't use apt or pacman the script will fail. Feel free to install the packages listed one by one and list which ones are available for your distribution and join the development!
 
 Thanks, hope this helps!
