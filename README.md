@@ -116,11 +116,11 @@ git clone https://www.github.com/ZZZlax/easyi3 && cd easyi3 && bash easyi3
 
 The script should begin with either
 
->> Setting up keyring
+> Setting up keyring
 
 or
 
->> Updating apt cache
+> Updating apt cache
 
 
 ## Recommends ##
