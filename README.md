@@ -75,8 +75,8 @@ Lastly, this script will curl/wget two other packages I find highly-useful/essen
 
 <div>
   <html>
-  <a href="https://github.com/soimort/translate-shell">Translator</a>
-  <a href="https://github.com/sdushantha/tmpmail">Tmpmail</a>
+    <a href="https://github.com/soimort/translate-shell">Translator</a>
+    <a href="https://github.com/sdushantha/tmpmail">Tmpmail</a>
   </html>
 </div>
 
