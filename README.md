@@ -4,7 +4,7 @@
 
 The end result being an i3 window manager with all it's depend's, a torrified ZSH shell, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default.
 
-ZSH syntax highlighting and autocorrect are set up aswell as alias's for bleachbit and system matinence:
+Alias's are preconfigured for bleachbit and system matinence:
 
 Bleachbit as user:
 
