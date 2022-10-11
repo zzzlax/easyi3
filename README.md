@@ -1,6 +1,7 @@
 # easyi3 #
 
 ## This script is intended to be used on a headless Arch or Debian-based distribution. ##
+###### This includes Ubuntu Server, Manjaro, Linux Mint, Endeavour Os, Kali Linux, Arch4Arm and more ######
 
 The end result being an i3 window manager with all it's depend's, a torrified ZSH shell, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default.
 
