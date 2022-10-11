@@ -151,7 +151,7 @@ And/Or Showing love to my Pinephone repo <3.
 <div>
   <html>
     <a href="https://github.com/ZZZlax/.Pyrate">.Pyrate</a>
-    <a href="https://github.com/ZZZlax/MEGAvpn">MEGAvpn</a>
+    <a href="https://github.com/ZZZlax/MEGAvpn">MEGAovpn</a>
     <a href="https://github.com/ZZZlax/Pinephone">ZZZ's Pinephone Repo</a>
     <br>
   </html>
