@@ -1,4 +1,4 @@
-# easyi3 #
+<img src="easyi3.svg" width="800" height="200">
 
 ## This script is intended to be used on a headless Arch or Debian-based distribution. ##
 ###### This includes Ubuntu Server, Manjaro, Linux Mint, Endeavour Os, Kali Linux, Arch4Arm and more ######
