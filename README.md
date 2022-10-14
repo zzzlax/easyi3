@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<img src="ezi3.svg" width="100%" height="100%">
+
 <h2 id="this-script-is-intended-to-be-used-on-a-headless-arch-or-debian-based-distribution.">This script is intended to be used on a headless Arch or Debian-based distribution.</h2>
 <h6 id="this-includes-ubuntu-server-manjaro-linux-mint-endeavour-os-kali-linux-arch4arm-and-more">This includes Ubuntu Server, Manjaro, Linux Mint, Endeavour Os, Kali Linux, Arch4Arm and more</h6>
 <p>The end result being an i3 window manager with all it’s depend’s, a torrified ZSH shell, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default.</p>
