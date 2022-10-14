@@ -19,7 +19,7 @@ Bleachbit as root:
 deep-clean
 ```
 
-Update package manager cache and remove unused packages:
+Update package manager cache, upgrade all pkgs and remove unused packages:
 
 ```BASH
 rolling
