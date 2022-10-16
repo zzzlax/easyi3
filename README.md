@@ -2,61 +2,7 @@
 
 <h2 id="this-script-is-intended-to-be-used-on-a-headless-arch-or-debian-based-distribution.">This script is intended to be used on a headless Arch or Debian-based distribution.</h2>
 <h6 id="this-includes-ubuntu-server-manjaro-linux-mint-endeavour-os-kali-linux-arch4arm-and-more">This includes Ubuntu Server, Manjaro, Linux Mint, Endeavour Os, Kali Linux, Arch4Arm and more</h6>
-<p>The end result being an i3 window manager with all it’s depend’s, a torrified ZSH shell, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default.</p>
-<p>Alias’s are preconfigured for bleachbit and system matinence:</p>
-<p>Bleachbit as user:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">clean</span></span></code></pre></div>
-<p>Bleachbit as root:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">deep-clean</span></span></code></pre></div>
-<p>Update package manager cache, upgrade all pkgs and remove unused packages:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="ex">rolling</span></span></code></pre></div>
-<p>Aswell as global alias’s for:</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Alias</th>
-<th>Command</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>p</td>
-<td>python3</td>
-<td>Call .py scripts quickly</td>
-</tr>
-<tr class="even">
-<td>b</td>
-<td>bash</td>
-<td>Call Bash scripts quickly</td>
-</tr>
-<tr class="odd">
-<td>tab</td>
-<td>xfce4-terminal –tab</td>
-<td>Open a new tab in the active terminal</td>
-</tr>
-<tr class="even">
-<td>c</td>
-<td>clear &amp;&amp;</td>
-<td>A global prefix to clear the screen</td>
-</tr>
-<tr class="odd">
-<td>x</td>
-<td>rm -rf ~/zsh_history ; history -c</td>
-<td>A global prefix to remove shell history</td>
-</tr>
-<tr class="even">
-<td>cx</td>
-<td>rm -rf ~/zsh_history ; history -c ; rm - rf .local/share/recently-used.xbel &amp;&amp; clear</td>
-<td>Remove history and recently used history as well as clearing the terminal</td>
-</tr>
-</tbody>
-</table>
+<p>The end result being an i3 window manager with all it’s depend’s, a torrified shell, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default.</p>
 <p>Wallpapers are sourced from your ~/Pictures folder making it quick and easy and Rofi was made transparent and full screen to maximize screen space.</p>
 <p>The packages will vary depending on your distro:</p>
 <table>
