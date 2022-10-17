@@ -111,15 +111,15 @@ fi
 
 echo "Detecting package manager"
 if [ -f "/etc/apt/sources.list" ] ; then
-    apt() ; tor() ; aptctl()
+    apt ; tor ; aptctl
 elif [ -f "etc/pacman.d" ] ; then
-    pacman() ; tor() ; pacctl()
+    pacman ; tor ; pacctl
 else
     echo "Package manager not yet supported." ; exit 0
 fi
-echo "Setting up tmpmail" && tmpmail()
-echo "Setting up translator." && translator()
-echo "Decorating i3" && decorate()
-echo "Generating 'root script'" && root()
-echo "Setting CPU Frequency to maximum" && cpufreq()
+echo "Setting up tmpmail" && tmpmail
+echo "Setting up translator." && translator
+echo "Decorating i3" && decorate
+echo "Generating 'root script'" && root
+echo "Setting CPU Frequency to maximum" && cpufreq
 echo "Install Complete!" && read
