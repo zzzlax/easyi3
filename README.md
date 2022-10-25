@@ -76,8 +76,8 @@
 <td>n</td>
 </tr>
 <tr class="odd">
-<td>tor</td>
-<td>y</td>
+<td>macchanger</td>
+<td>n</td>
 <td>y</td>
 <td>y</td>
 </tr>
@@ -171,18 +171,7 @@
 <td>y</td>
 <td>n</td>
 </tr>
-<tr class="odd">
-<td>macchanger</td>
-<td>n</td>
-<td>y</td>
-<td>y</td>
-</tr>
-<tr class="even">
-<td>apt-transport-tor</td>
-<td>n</td>
-<td>y</td>
-<td>n</td>
-</tr>
+
 </tbody>
 </table>
 <p>A desktop item will be created in ‘/etc/xdg/autostart/’ that automatically sets your CPU Frequency Governor to ‘Performance’ mode.</p>
@@ -213,22 +202,10 @@
 <blockquote>
 <p>Updating apt cache</p>
 </blockquote>
-<h2 id="recommends">Recommends</h2>
-<p>Either ohmyzsh, fizsh or cloning zsh plugins and adding them by source to your zshrc. Fizsh has the fastest load time in terminal.</p>
 <hr />
 <div>
 <html>
 <a href="https://github.com/ohmyzsh/ohmyzsh">Ohmyzsh</a> <a href="https://github.com/zsh-users/fizsh">Fizsh</a> <a href="https://github.com/topics/zsh-plugins">ZSH Plugins</a>
-</html>
-</div>
-<hr />
-<p>Using MEGAovpn located in the ZZZlax git repo with a free protonvpn account to set up all the free server configs in 1 script then setting your primary connection to connect to a VPN upon boot.</p>
-<p>Using .Pyrate Browser to access the tor network on a server-side cookie proof (you read that correctly) web browser. Some of its features include automated launching of django webservers, script injection, a customizeable homescreen writen in Html5/CSS/JS, and a GUI for youtube-dl that is capiable of scraping band and album information from wikipedia and many more security and networking features.</p>
-<p>And/Or Showing love to my Pinephone repo &lt;3.</p>
-<hr />
-<div>
-<html>
-<a href="https://github.com/ZZZlax/.Pyrate">.Pyrate</a> <a href="https://github.com/ZZZlax/MEGAvpn">MEGAovpn</a> <a href="https://github.com/ZZZlax/Pinephone">ZZZ’s Pinephone Repo</a> <br>
 </html>
 </div>
 <hr />
