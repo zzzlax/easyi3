@@ -17,10 +17,7 @@ function apt(){
     sudo apt install apt-transport-https swapspace curl wget git memlockd unburden-home-dir auditd nocache stacer trash-cli axel libpam-tmpdir bleachbit curl debsums tuned tuned-utils preload tlp irqbalance brightnessctl fail2ban memcached tuned-utils-systemtap zsh ufw xfce4-terminal network-manager-openvpn-gnome network-manager-pptp-gnome macchanger localepurge i3 lightdm xcompmgr feh xfce4-terminal thunar tor apt-transport-tor -y && sudo apt purge localepurge -y
     echo "i3 installed"
 }
-function tor() {
-    echo "Torrifying Shell"
-    sudo service tor start > /dev/null 2>&1 && echo ". torsocks on" >> ~/.bashrc ; torpass=$(tor --hash-password "my-tor-password") && printf "HashedControlPassword $torpass\nControlPort 9051\n" | sudo tee -a /etc/tor/torrc
-}
+
 function pacctl() {
     echo "Setting up services"
     sudo systemctl enable nm-applet ; sudo systemctl restart tor ; sudo systemctl start fail2ban ; sudo systemctl enable irqbalance ; sudo systemctl enable memcached ; sudo tuned-adm profile throughput-performance ; sudo tlp start ; sudo systemctl enable tlp ; sudo service tuned start ; sudo systemctl enable tuned ; sudo ufw enable ; sudo service auditd start && sudo systemctl enable auditd && sudo auditctl -w /etc/passwd -p wa -k user-modify && sudo auditctl -w /boot -p wa -k user-modify && sudo auditctl -w /root -p wa -k user-modify && sudo auditctl -w /etc/ssh -p wa -k user-modify && sudo auditctl -w /etc/security -p wa -k user-modify && sudo auditctl -w /etc/selinux -p wa -k user-modify && sudo auditctl -w /etc/passwd -p wa -k user-modify && sudo auditctl -w /etc/apparmor -p wa -k user-modify && sudo auditctl -l ; sudo sed -i 's/wifi.powersave = \*/wifi.powersave = 2/' /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf ; sudo systemctl enable lightdm
@@ -62,31 +59,27 @@ else
     echo "Something went wrong. Rofi not set up."
 fi
 }
+
 function root() {
 echo "echo high >> /sys/class/drm/card0/device/power_dpm_force_performance_level
 echo z3fold >> /etc/initramfs-tools/modules
 echo lz4 >> /etc/initramfs-tools/modules
 echo lz4_compress >> /etc/initramfs-tools/modules
-update-initramfs -u
-update-grub
-rm ~/root" >> ~/root
-}
-function cpufreq() {
+mv performance.desktop /etc/xdg/autostart/
+su $(whoami)
+sudo update-initramfs -u
+sudo update-grub" >> ~/root
 echo "[Desktop Entry]
 Type=Application
 Name=Performance
 GenericName=Performance
 Comment=
 Categories=System;
-Exec=echo 'Performance' | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor" >> /etc/xdg/autostart/performance.desktop
-if [ -f /etc/xdg/autostart/performance.desktop ] ; then
-    echo "CPU Frequency set to max."
-else
-    echo "Something went wrong. CPU Frequency not set"
-fi
+Exec=echo 'Performance' | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor" >> performance.desktop
 }
+
 function tmpmail() {
-curl -L "https://raw.githubusercontent.com/sdushantha/tmpmail/master/tmpmail" > tmpmail && chmod +x tmpmail && mv tmpmail /local/bin/
+curl -L "https://raw.githubusercontent.com/sdushantha/tmpmail/master/tmpmail" > tmpmail && chmod +x tmpmail
 if [ -f .local/bin/tmpmail ] ; then
     echo "Tmpmail setup."
 else
@@ -99,7 +92,7 @@ elif [ -f "/etc/pacman.d" ] ; then
 fi
 }
 function translator() {
-wget git.io/trans && chmod -x ./trans && mv trans .local/bin/
+wget git.io/trans && chmod -x ./trans
 if [ -f .local/bin/trans ] ; then
     echo "Translator setup."
 else
