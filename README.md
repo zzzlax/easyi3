@@ -203,11 +203,5 @@
 <p>Updating apt cache</p>
 </blockquote>
 <hr />
-<div>
-<html>
-<a href="https://github.com/ohmyzsh/ohmyzsh">Ohmyzsh</a> <a href="https://github.com/zsh-users/fizsh">Fizsh</a> <a href="https://github.com/topics/zsh-plugins">ZSH Plugins</a>
-</html>
-</div>
-<hr />
 <p>If you try to run easy i3 on a distro that doesn’t use apt or pacman the script will fail. Feel free to install the packages listed one by one and list which ones are available for your distribution and join the development!</p>
 <p>Thanks, hope this helps!</p>
