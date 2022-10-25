@@ -6,7 +6,7 @@ function pacman() {
     pacman-keyring --init > /dev/null 2>&1 ; pacman-keyring --populate > /dev/null 2>&1 ; sudo pacman -Syu > /dev/null 2>&1
     echo "Keyring setup complete."
     echo "Setting up i3"
-    sudo pacman -S xorg-server xorg-xinit i3-gaps lightdm ttf-dejavu git trash-cli axel memcached nm-applet fail2ban zsh xfce4-terminal thunar tor tuned ufw auditd brightnessctl rofi feh firefox irqbalance curl tlp -y
+    sudo pacman -S xorg-server xorg-xinit rofi i3-gaps lightdm ttf-dejavu git trash-cli axel memcached nm-applet fail2ban zsh xfce4-terminal thunar tor tuned ufw auditd brightnessctl rofi feh firefox irqbalance curl tlp -y
     echo "i3 setup complete"
 }
 function apt(){
@@ -14,7 +14,7 @@ function apt(){
     sudo apt update > /dev/null 2>&1
     echo "Cache updated"
     echo "Installing i3 and tuning system"
-    sudo apt install apt-transport-https swapspace curl wget git memlockd unburden-home-dir auditd nocache stacer trash-cli axel libpam-tmpdir bleachbit curl debsums tuned tuned-utils preload tlp irqbalance brightnessctl fail2ban memcached tuned-utils-systemtap zsh ufw xfce4-terminal network-manager-openvpn-gnome network-manager-pptp-gnome macchanger localepurge i3 lightdm xcompmgr feh xfce4-terminal thunar tor apt-transport-tor -y && sudo apt purge localepurge -y
+    sudo apt install apt-transport-https swapspace rofi curl wget git memlockd unburden-home-dir auditd nocache stacer trash-cli axel libpam-tmpdir bleachbit curl debsums tuned tuned-utils preload tlp irqbalance brightnessctl fail2ban memcached tuned-utils-systemtap zsh ufw xfce4-terminal network-manager-openvpn-gnome network-manager-pptp-gnome macchanger localepurge i3 lightdm xcompmgr feh xfce4-terminal thunar tor apt-transport-tor -y && sudo apt purge localepurge -y
     echo "i3 installed"
 }
 
