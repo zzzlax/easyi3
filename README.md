@@ -170,7 +170,6 @@
 <td>y</td>
 <td>n</td>
 </tr>
-
 </tbody>
 </table>
 <p>Lastly, this script will curl/wget two other packages I find highly-useful/essential:</p>
@@ -181,10 +180,8 @@
 </div>
 <hr />
 <h2 id="to-use">To use</h2>
-<p>First, download and install a fresh Arch or Debian based distribution then establish a network connection. Install git by running</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="fu">sudo</span> pacman -Ss git <span class="kw">||</span> <span class="fu">sudo</span> apt install git</span></code></pre></div>
-<p>Then run:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="fu">git</span> clone https://www.github.com/ZZZlax/easyi3 <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> easyi3 <span class="kw">&amp;&amp;</span> <span class="fu">bash</span> easyi3</span></code></pre></div>
+<p>First, download and install a fresh Arch or Debian based distribution then establish a network connection.</p>
+<p>Then open your web browser to <a>https://zzzlax.github.io/downloads/ezi3</a> and click "save" (no need to install git first!).</p>
 <p>The script should begin with a zenity GUI listing all suggested packages and a series of notifications alerting you of background progress. By default all packages are selected, feel free to remove any you dont want by unchecking them when prompted.</p>
 <hr />
 <p>If you try to run easy i3 on a distro that doesn’t use apt or pacman the script will fail. Feel free to install the packages listed and let me know which ones are available for your distribution or join the development!</p>
