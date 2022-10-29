@@ -117,8 +117,8 @@
 <td>n</td>
 </tr>
 <tr class="even">
-<td>rofi</td>
-<td>y</td>
+<td>network-manager-openvpn-pptp</td>
+<td>n</td>
 <td>y</td>
 <td>n</td>
 </tr>
@@ -160,12 +160,6 @@
 </tr>
 <tr class="odd">
 <td>network-manager-openvpn-gnome</td>
-<td>n</td>
-<td>y</td>
-<td>n</td>
-</tr>
-<tr class="even">
-<td>network-manager-openvpn-pptp</td>
 <td>n</td>
 <td>y</td>
 <td>n</td>
