@@ -181,7 +181,7 @@
 <hr />
 <h2 id="to-use">To use</h2>
 <p>First, download and install a fresh Arch or Debian based distribution then establish a network connection.</p>
-<p>Then open your web browser to <a>https://zzzlax.github.io/downloads/ezi3</a> and click "save" (no need install git first or clone this repo) (script is left here for opensource-y-ness and incase you want to become a contributer!).</p>
+<p>Then open your web browser to <a href="https://zzzlax.github.io/downloads/ezi3">https://zzzlax.github.io/downloads/ezi3</a> and click "save" (no need install git first or clone this repo) (script is left here for opensource-y-ness and incase you want to become a contributer!).</p>
 <p>The script should begin with a zenity GUI listing all suggested packages and a series of notifications alerting you of background progress. By default all packages are selected, feel free to remove any you dont want by unchecking them when prompted.</p>
 <hr />
 <p>If you try to run easy i3 on a distro that doesn’t use apt or pacman the script will fail. Feel free to install the packages listed and let me know which ones are available for your distribution or join the development!</p>
