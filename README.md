@@ -117,8 +117,8 @@
 <td>n</td>
 </tr>
 <tr class="even">
-<td>network-manager-openvpn-pptp</td>
-<td>n</td>
+<td>curl</td>
+<td>y</td>
 <td>y</td>
 <td>n</td>
 </tr>
@@ -153,8 +153,8 @@
 <td>n</td>
 </tr>
 <tr class="even">
-<td>curl</td>
-<td>y</td>
+<td>network-manager-openvpn-pptp</td>
+<td>n</td>
 <td>y</td>
 <td>n</td>
 </tr>
