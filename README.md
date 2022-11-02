@@ -5,6 +5,7 @@
 <p><a href="https://github.com/zzzlax/zzzlax.github.io/blob/main/downloads/ezi3">View script here!</a> (Located in my gitpages repo)</p>
 <p>The packages will vary depending on your distro:</p>
 <p>Select packages when prompted, only i3 turned on by default</p>
+<p>package availability is as follows:</p>
 <table>
 <thead>
 <tr class="header">
