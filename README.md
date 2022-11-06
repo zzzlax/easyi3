@@ -2,7 +2,6 @@
 <h1>Now even easier</h1>
 <h2 id="this-script-is-intended-to-be-used-on-a-headless-arch-or-debian-based-distribution.">Run me on any Arch/Debian Distro with any Window Manager!</h2>
 <p>The end result being an i3 window manager with all it’s depend’s, network monitoring, work load balancing, an advanced intrusion detection system and general performance enhancements set by default installed alongside your current window manager.</p>
-<p><a href="https://github.com/zzzlax/zzzlax.github.io/blob/main/downloads/ezi3">View script here!</a> (Located in my gitpages repo)</p>
 <p>The packages will vary depending on your distro:</p>
 <p>Select packages when prompted, only i3 turned on by default</p>
 <p>package availability is as follows:</p>
