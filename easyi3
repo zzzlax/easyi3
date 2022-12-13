@@ -27,7 +27,7 @@ zenity --notification --text "Updating apt cache"
 sudo apt update > /dev/null 2>&1
 zenity --notification --text "Cache updated"
 zenity --notification --text "Installing i3 and tuning system"
-for action in $(zenity --list --checklist --column  "Apt"  --column  "Action: " TRUE apt-transport-https FALSE swapspace FALSE rofi FALSE git FALSE memlockd FALSE unburden-home-dir FALSE auditd FALSE nocache FALSE stacer FALSE axel FALSE libpam-tmpdir FALSE bleachbit FALSE debsums FALSE tuned FALSE tuned-utils FALSE preload FALSE tlp FALSE irqbalance TRUE brightnessctl FALSE fail2ban FALSE memcached FALSE tuned-utils-systemtap FALSE xfce4-4terminal FALSE macchanger TRUE i3 TRUE lightdm TRUE xcompmgr TRUE feh FALSE thunar FALSE tor FALSE apt-transport-tor); do
+for action in $(zenity --list --checklist --column  "Apt"  --column  "Action: " TRUE apt-transport-https FALSE swapspace FALSE rofi FALSE git FALSE memlockd FALSE unburden-home-dir FALSE auditd FALSE nocache FALSE stacer FALSE axel FALSE libpam-tmpdir FALSE bleachbit FALSE debsums FALSE tuned FALSE tuned-utils FALSE preload FALSE tlp FALSE irqbalance TRUE brightnessctl FALSE fail2ban FALSE memcached FALSE tuned-utils-systemtap FALSE xfce4-4terminal TRUE i3 TRUE lightdm TRUE xcompmgr TRUE feh FALSE thunar FALSE tor FALSE apt-transport-tor); do
     out="$(echo $action | sed -e 's/|/ /g')"; for final in $out; do
         sudo apt install $final -y | zenity --notification  --text "Installing $final" ; done
         case $final in
