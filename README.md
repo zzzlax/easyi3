@@ -1,4 +1,4 @@
-<img src="easyi3.svg" width="100%" height="100%">
+<img src="ezi3.svg" width="100%" height="100%">
 <h1>Now even easier</h1>
 <h2 id="this-script-is-intended-to-be-used-on-a-headless-arch-or-debian-based-distribution.">Run me on any Arch/Debian Distro with any Window Manager!</h2>
 <p>The packages will vary depending on your distro:</p>
